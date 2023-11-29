@@ -97,6 +97,7 @@ button {
 }
 .card img {
   width: 100%;
+  pointer-events: none;
 }
 .card-face,
 .card-back {
