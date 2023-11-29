@@ -67,7 +67,7 @@ function App() {
       setBadge();
       setCards(shuffle);
     }
-  }, [cards, wins]);
+  }, [cards, wins, setBadge]);
   return (
     <>
       <Header handleNewGame={handleNewGame} wins={wins} />
